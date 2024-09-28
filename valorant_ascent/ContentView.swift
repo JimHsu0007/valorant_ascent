@@ -40,7 +40,7 @@ struct ContentView: View {
                     .padding()
 
                 Text("義境空島")
-                    .offset(y:-50)
+                    .offset(y:-250)
                 Text("參考現實中威尼斯")
                 // 在這裡添加地圖顯示
                 Map(coordinateRegion: $region)
@@ -112,7 +112,7 @@ struct ContentView: View {
             """)
             .multilineTextAlignment(.center)
             .padding()
-            Text("to be countinue")
+            Text("還有十張圖\nto be countinue")
                 .font(.largeTitle)
         }
         
